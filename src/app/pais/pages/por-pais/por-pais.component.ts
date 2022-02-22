@@ -25,7 +25,7 @@ export class PorPaisComponent {
   paisesSugeridos: Country[] = [];
   
   constructor( private paisService: PaisService) { }
-
+  //busqueda
   buscar( termino: string){
     this.hayError = false;
     this.haySugerencias = false;
